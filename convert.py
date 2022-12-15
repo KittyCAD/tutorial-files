@@ -10,7 +10,7 @@ client = ClientFromEnv(timeout=500, verify_ssl=True)
 
 # Convert a file from OBJ to STL.
 # Read in the contents of the file.
-file = open("./Dodecahedron.obj", "rb")
+file = open("./dodecahedron.obj", "rb")
 content = file.read()
 file.close()
 
